@@ -1,131 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>header,nav, section,aside & footer</title>
+    <title>Heart trail Animation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/javascript/script.js"></script>
 </head>
-
 <body>
-    <header>
-        <table>
-            <tr>
-                <td><img width="150px" src="/images/photos5.jpg" alt="gopal"></td>
+    <div class="container">
+        <div id="time">
+            <div class="circle" style="--color: #ff2972">
+                <div class="dots h_dot">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70" id="hh"></circle>
+                    </svg>
+                    <div id="hours">00</div>
+                </div>
+                <div class="circle" style="--color: #fee800">
+                    <div class="dots m_dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70" id="mm"></circle>
+                    </svg>
+                    <div id="minutes">00</div>
 
-
-                <td>
-                    <h1>Gopal krishna tiwary</h1>
-                    <p><i><b>Software Engineer</b> in <a href="https:/sahosofttech.com">sahosoft technologies pvt
-                                ltd.</a></i></p>
-                    <p>I ❤️ coding... </p>
-                    <nav>
-                        <p><a href="table.html">table</a></p>|
-                        <a href="https:/www.google.com" target="_blank">go to Google</a>
-                        <a href="education">education</a>
-                        <a href="#exp">experience</a>
-                        <a href="#contact">contact</a>
-                    </nav>
-                </td>
-            </tr>
-        </table>
-        <hr>
-    </header>
-    <main>
-        <section id="education">
-            <table border="1">
-                <tr>
-                    <th>Course</th>
-                    <th>Instituites</th>
-                    <th>Year</th>
-                    <th>Result</th>
-                </tr>
-                <tr>
-                    <td>matric</td>
-                    <td>D.K carmel</td>
-                    <td>2011</td>
-                    <td>72%</td>
-                </tr>
-                <tr>
-                    <td>inter</td>
-                    <td>j.j college</td>
-                    <td>2014</td>
-                    <td>72%</td>
-                </tr>
-                <tr>
-                    <td>b.sc</td>
-                    <td>j.j college</td>
-                    <td>2017</td>
-                    <td>65%</td>
-                </tr>
-                <tr>
-                    <td>B.ed</td>
-                    <td>M.M.A.D.D.S.C</td>
-                    <td>2021</td>
-                    <td>79%</td>
-                </tr>
-                <tr>
-                    <td>MCA</td>
-                    <td>PPU</td>
-                    <td>2024</td>
-                    <td>80%</td>
-                </tr>
-            </table>
-
-        </section>
-
-        <section id="exp">
-            <h2><b>Experince Details</b></h2>
-            <p>
-                The experience of working in the IT industry can vary widely depending on the specific role,
-                company, and individual circumstances. However, there are some common aspects that many people
-                in the IT industry might experience:
-            </p>
-
-            <p>Work-Life Balance Challenges: Due to the nature of IT projects and support services,some roles may
-                require being on call or working irregular hours to handle emergencies or updates.
-            </p>
-
-            <p>Global and Remote Work: The IT industry often allows for remote work and opportunities to work with teams
-                and clients from around the world, which can provide flexibility but also requires strong communication
-                skills and adaptability.
-            </p>
-
-        </section>
-
-        <section id="skill">
-            <h2><b>Technicals skills</b></h2>
-            <table border="">
-
-                <tr>
-                    <td>
-                        <b>Technical skills in the IT industry</b> encompass a wide range of capabilities
-                        that enable professionals to design, develop, implement, and maintain technology solutions.
-                        These skills can vary depending on specific roles and specialties within IT,
-                        but some foundational technical skills include:
-                    </td>
-
-                    <td>Programming Languages: Proficiency in programming languages like Python, Java, C++, JavaScript, or Ruby is crucial for software developers and engineers.
-                    </td>
-                    
-                    <td>Web Development: Knowledge of HTML, CSS, and JavaScript frameworks (e.g., React, Angular, Vue.js) for building interactive and responsive web applications.
-                    </td>
-                    
-                    <td>Database Management: Skills in designing, querying, and maintaining databases using SQL (e.g., MySQL, PostgreSQL, SQL Server) or NoSQL databases (e.g., MongoDB, Redis).
-                    </td>
-
-                </tr>
-            </table>
-
-        </section>
-
-
-    </main>
-    <footer id="contact">
-        <h2><b>Contact details</b></h2>
-        <p><a href="mailto:tiwarygopalkrishna081@gmail.com">tiwarygopalkrishna081@gmail.com</a></p>
-        <a href="tel:9504231246" target="_blank">9504231246</a>
-    </footer>
+                </div>
+                <div class="circle" style="--color: #04fc43">
+                    <div class="dots s_dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70" id="ss"></circle>
+                    </svg>
+                    <div id="seconds">00</div>
+                </div>
+                <div class="ap">
+                    <div id="ampm">AM</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>
